@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ivan Israel">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Factory Chooser</title>
+</head>
+<body class="root">
+  <div class="page">
+    <header class="header">
+      <p class="header__name">Центральная мебельная справочная</p>
+    </header>
+    <main class="content">
+      <div class="parameters">
+        <h1 class="parameters__title">ПАРАМЕТРЫ</h1>
+        <div class="parameters__square"></div>
+        <div class="parameters__small-square"></div>
+        <form class="parameters__form">
+          <fieldset class="parameters__field" id="styles">
+            <label class="parameters__name">Стиль</label>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleClassic" name="style" value="classic">
+              <label class="parameters__label" for="styleClassic"><span>Классика</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleNeoClassic" name="style" value="neoClassic">
+              <label class="parameters__label" for="styleNeoClassic"><span>Неоклассика</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleArDeco" name="style" value="arDeco">
+              <label class="parameters__label" for="styleArDeco"><span>Ар-деко</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleProv" name="style" value="prov">
+              <label class="parameters__label" for="styleProv"><span>Прованс</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleMin" name="style" value="min">
+              <label class="parameters__label" for="styleMin"><span>Минимализм</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleCont" name="style" value="cont">
+              <label class="parameters__label" for="styleCont"><span>Современный</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleEco" name="style" value="eco">
+              <label class="parameters__label" for="styleEco"><span>Эко</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleEclec" name="style" value="eclec">
+              <label class="parameters__label" for="styleEclec"><span>Эклектика</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleArNuvo" name="style" value="arNuvo">
+              <label class="parameters__label" for="styleArNuvo"><span>Ар-нуво</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="styleGlam" name="style" value="glam">
+              <label class="parameters__label" for="styleGlam"><span>Гламур</span></label>
+            </div>
+            <button class="parameters__resetButton" type="button"></button>
+          </fieldset>
+          <fieldset class="parameters__field" id="products">
+            <label class="parameters__name">Продукция</label>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productSoft" name="product" value="soft">
+              <label class="parameters__label" for="productSoft"><span>Мягкая мебель</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productBed" name="product" value="bed">
+              <label class="parameters__label" for="productBed"><span>Спальня</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productLiving" name="product" value="living">
+              <label class="parameters__label" for="productLiving"><span>Гостинная</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productDining" name="product" value="dining">
+              <label class="parameters__label" for="productDining"><span>Столовая</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productChair" name="product" value="chair">
+              <label class="parameters__label" for="productChair"><span>Столы и стулья</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productBath" name="product" value="bath">
+              <label class="parameters__label" for="productBath"><span>Ванная</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productAccs" name="product" value="accs">
+              <label class="parameters__label" for="productAccs"><span>Аксессуары</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productSmallForms" name="product" value="smallForms">
+              <label class="parameters__label" for="productSmallForms"><span>Малые формы</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productTextile" name="product" value="textile">
+              <label class="parameters__label" for="productTextile"><span>Текстиль</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productLight" name="product" value="light">
+              <label class="parameters__label" for="productLight"><span>Свет</span></label>
+            </div>
+            <div class="parameters__choice">
+              <input class="parameters__input" type="checkbox" id="productOutdoor" name="product" value="outdoor">
+              <label class="parameters__label" for="productOutdoor"><span>Уличная мебель</span></label>
+            </div>
+            <button class="parameters__resetButton" type="button"></button>
+          </fieldset>
+          <div class="parameters__multiple" id="prices">
+            <fieldset class="parameters__field" id="pricesfield">
+              <label class="parameters__name">Ценовой сегмент</label>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="priceLow" name="price" value="low">
+                <label class="parameters__label" for="priceLow"><span>Низкий</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="priceMid" name="price" value="mid">
+                <label class="parameters__label" for="priceMid"><span>Средний</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="priceMidHigh" name="price" value="midHigh">
+                <label class="parameters__label" for="priceMidHigh"><span>Средне-высокий</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="priceHigh" name="price" value="high">
+                <label class="parameters__label" for="priceHigh"><span>Высокий</span></label>
+              </div>
+              <button class="parameters__resetButton" type="button"></button>
+            </fieldset>
+            <fieldset class="parameters__field" id="features">
+              <label class="parameters__name">Особенности</label>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature1" name="feature" value="feature1">
+                <label class="parameters__label" for="feature1"><span>Диван раскладной на каждый день</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature2" name="feature" value="feature2">
+                <label class="parameters__label" for="feature2"><span>Стол раскладной компактный</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature3" name="feature" value="feature3">
+                <label class="parameters__label" for="feature3"><span>Стол туалетный компактный</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature4" name="feature" value="feature4">
+                <label class="parameters__label" for="feature4"><span>Стол письменный компактный</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature5" name="feature" value="feature5">
+                <label class="parameters__label" for="feature5"><span>Кровать 200х200</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature6" name="feature" value="feature6">
+                <label class="parameters__label" for="feature6"><span>Кровать с узкими царгами</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature7" name="feature" value="feature7">
+                <label class="parameters__label" for="feature7"><span>Современная витрина</span></label>
+              </div>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="feature8" name="feature" value="feature8">
+                <label class="parameters__label" for="feature8"><span>Стол на металл. основании</span></label>
+              </div>
+              <button class="parameters__resetButton" type="button"></button>
+            </fieldset>
+            <fieldset class="parameters__field" id="repres">
+              <label class="parameters__name">Представительство</label>
+              <div class="parameters__choice">
+                <input class="parameters__input" type="checkbox" id="represMir" name="represen" value="mirgroup">
+                <label class="parameters__label" for="represMir"><span>MIRGROUP</span></label>
+              </div>
+              <button class="parameters__resetButton" type="button" id="represReset"></button>
+            </fieldset>
+          </div>
+        </form>
+      </div>
+      <div class="results" id="results">
+        <ul class="results__list">
+
+        </ul>
+      </div>
+      <button class="search-button" type="submit" id="search"></button>
+      <div class="popup popup_closed">
+        
+      </div>
+      <template id="popup">
+        <div class="popup__container">
+          <button class="popup__close-button" type="button"></button> 
+          <img src="./images/giorgiocasa2.png" class="popup__image" alt="giorgiocasa"> 
+          <div class="popup__text"> 
+          <p class="popup__title">Giorgiocasa</p> 
+          <a class="popup__link" href="#">Официальный сайт</a> 
+          <p class="popup__description">Представительство: <span>MIRGROUP</span></p> 
+          <p class="popup__subtitle">Условия работы</p> 
+          <p class="popup__description">Скидка: 50%
+            <br>Предоплата: 50%
+            <br>Сроки производства: 45 рабочих дней
+          </p> 
+          </div> 
+        </div>
+      </template>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2023 Ivan Israel</p>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

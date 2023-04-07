@@ -1,0 +1,11 @@
+.results__list {
+  max-width: 1272px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 100px 100px 150px 100px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(4, min-content);
+  grid-template-rows: auto;
+}

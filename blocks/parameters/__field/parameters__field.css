@@ -1,0 +1,57 @@
+.parameters__field {
+  display: grid;
+  grid-template-columns: repeat(6, min-content);
+  grid-template-rows: auto;
+  max-width: 1500px;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+  border: 4px double #A4A4A4;
+  background-color: rgb(184, 184, 184);
+}
+
+#styles {
+  grid-area: styles;
+  grid-template-areas: 
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset";
+}
+
+#products {
+  grid-area: products;
+  grid-template-areas: 
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset";
+}
+
+#prices {
+  grid-area: prices;
+}
+
+#repres {
+  grid-area: repres;
+  grid-template-areas: 
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset"
+  "name label label label label reset";
+}
+
+#features {
+  grid-area: features;
+  grid-template-areas: 
+  "name label label label label reset"
+  "name label label label label reset";
+}
+
+#pricesfield {
+  grid-template-columns: repeat(4, min-content);
+  grid-template-areas: 
+  "name label label reset"
+  "name label label reset";
+}

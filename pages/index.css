@@ -1,0 +1,77 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;700&display=swap');
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/__name/header__name.css);
+
+@import url(../blocks/parameters/parameters.css);
+
+@import url(../blocks/parameters/__title/parameters__title.css);
+
+@import url(../blocks/parameters/__choice/parameters__choice.css);
+
+@import url(../blocks/parameters/__field/parameters__field.css);
+
+@import url(../blocks/parameters/__form/parameters__form.css);
+
+@import url(../blocks/parameters/__input/parameters__input.css);
+
+@import url(../blocks/parameters/__name/parameters__name.css);
+
+@import url(../blocks/parameters/__label/parameters__label.css);
+
+@import url(../blocks/results/results.css);
+
+@import url(../blocks/results/__text/results__text.css);
+
+@import url(../blocks/results/__list/results__list.css);
+
+@import url(../blocks/parameters/__multiple/parameters__multiple.css);
+
+@import url(../blocks/parameters/__resetButton/parameters__resetButton.css);
+
+@import url(../blocks/parameters/__square/parameters__square.css);
+
+@import url(../blocks/parameters/__small-square/parameters__small-square.css);
+
+@import url(../blocks/search-button/search-button.css);
+
+@import url(../blocks/popup/popup.css);
+
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/popup/__container/popup__container.css);
+
+@import url(../blocks/popup/_closed/popup_closed.css);
+
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+
+@import url(../blocks/popup/__image/popup__image.css);
+
+@import url(../blocks/popup/__description/popup__description.css);
+
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
+
+@import url(../blocks/popup/__text/popup__text.css);
+
+@import url(../blocks/popup/__title/popup__title.css);
+
+@import url(../blocks/popup/__link/popup__link.css);
+
+@import url(../blocks/results/__card/results__card.css);
+
+@import url(../blocks/results/__card-text/results__card-text.css);

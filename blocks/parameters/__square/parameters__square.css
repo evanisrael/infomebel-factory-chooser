@@ -1,0 +1,10 @@
+.parameters__square {
+  position: absolute;
+  background-color: rgb(184, 184, 184);
+  width: 1026px;
+  height: 700px;
+  z-index: -10;
+  top: 315px;
+  left: 100px;
+  opacity: 0.8;
+}

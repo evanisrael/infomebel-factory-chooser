@@ -1,0 +1,14 @@
+.results__text {
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  opacity: 0.5;
+  width: 1272px;
+}

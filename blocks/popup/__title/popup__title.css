@@ -1,0 +1,11 @@
+.popup__title {
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  color: black;
+  font-size: 50px;
+  line-height: 55px;
+  word-spacing: 3px;
+  margin: 0;
+  padding: 20px 0 20px 0px;
+  text-align: start;
+}

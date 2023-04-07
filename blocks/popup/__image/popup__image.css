@@ -1,0 +1,7 @@
+.popup__image {
+  width: 50%;
+  object-fit: cover;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.parameters__resetButton {
+  background-image: url(../../../images/reset.png);
+  width: 50px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(184, 184, 184);
+  border: 0;
+  padding: 0;
+  z-index: 100;
+  grid-area: reset;
+  align-self: center;
+}
+
+.parameters__resetButton:hover {
+  opacity: 0.8;
+  transition: ease 0.3s;
+}
+

@@ -1,0 +1,19 @@
+.popup__description {
+  font-family: 'Brygada 1918', serif;
+  font-weight: 400;
+  color: black;
+  font-size: 23px;
+  line-height: 50px;
+  word-spacing: 3px;
+  margin: 0;
+  padding: 70px 0 70px 0;
+  text-align: start;
+}
+
+.popup__description span {
+  font-weight: 700;
+}
+
+.popup__description:last-child {
+  padding: 40px 0 70px 0;
+}

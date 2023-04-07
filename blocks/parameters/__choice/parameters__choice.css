@@ -1,0 +1,24 @@
+.parameters__choice {
+  margin: 0;
+  padding: 0;
+}
+
+.parameters__choice select {
+  width: 280px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: auto;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.parameters__choice select option {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.parameters__choice select option input[type="checkbox"] {
+  margin-right: 10px;
+}

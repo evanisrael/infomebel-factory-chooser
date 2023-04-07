@@ -1,0 +1,9 @@
+.parameters__small-square {
+  position: absolute;
+  background-color: aqua;
+  width: 1100px;
+  height: 800px;
+  z-index: -9;
+  top: 380px;
+  left: 690px;
+}

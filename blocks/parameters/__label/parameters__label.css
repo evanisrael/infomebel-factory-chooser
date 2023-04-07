@@ -1,0 +1,346 @@
+label.parameters__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 51px;
+  position: relative;
+  grid-area: label;
+}
+
+label.parameters__label::before {
+  content: "";
+  display: inline-block;
+  width: 230px;
+  height: 51px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+label span {
+  display: inline-block;
+  position: relative;
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  color: white;
+  font-size: 23px;
+  line-height: 51px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+#features label span {
+  display: inline-block;
+  position: relative;
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  color: white;
+  font-size: 19px;
+  line-height: 20px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+label.parameters__label:hover {
+  opacity: 0.8;
+  transition: ease 0.3s;
+}
+
+input:checked + label span {
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+input:checked + label.parameters__label::before {
+  border: 3px solid white;
+}
+
+#styleClassic:checked + label.parameters__label::before {
+  background-image: url(../../../images/classchecked.png);
+}
+
+#styleClassic + label.parameters__label::before {
+  background-image: url(../../../images/class.png);
+}
+
+#styleNeoClassic:checked + label.parameters__label::before {
+  background-image: url(../../../images/neoclasschecked.png);
+}
+
+#styleNeoClassic + label.parameters__label::before {
+  background-image: url(../../../images/neoclass.png);
+}
+
+#styleArDeco:checked + label.parameters__label::before {
+  background-image: url(../../../images/ardecochecked.png);
+}
+
+#styleArDeco + label.parameters__label::before {
+  background-image: url(../../../images/ardeco.png);
+}
+
+#styleProv:checked + label.parameters__label::before {
+  background-image: url(../../../images/provencechecked.png);
+}
+
+#styleProv + label.parameters__label::before {
+  background-image: url(../../../images/provence.png);
+}
+
+#styleMin:checked + label.parameters__label::before {
+  background-image: url(../../../images/minimalchecked.png);
+}
+
+#styleMin + label.parameters__label::before {
+  background-image: url(../../../images/minimal.png);
+}
+
+#styleCont:checked + label.parameters__label::before {
+  background-image: url(../../../images/sovrchecked.png);
+}
+
+#styleCont + label.parameters__label::before {
+  background-image: url(../../../images/sovr.png);
+}
+
+#styleEco:checked + label.parameters__label::before {
+  background-image: url(../../../images/ecochecked.png);
+}
+
+#styleEco + label.parameters__label::before {
+  background-image: url(../../../images/eco.png);
+}
+
+#styleEclec:checked + label.parameters__label::before {
+  background-image: url(../../../images/eclecticchecked.png);
+}
+
+#styleEclec + label.parameters__label::before {
+  background-image: url(../../../images/eclectic.png);
+}
+
+#styleArNuvo:checked + label.parameters__label::before {
+  background-image: url(../../../images/arnuvochecked.png);
+}
+
+#styleArNuvo + label.parameters__label::before {
+  background-image: url(../../../images/arnuvo.png);
+}
+
+#styleGlam:checked + label.parameters__label::before {
+  background-image: url(../../../images/glamourchecked.png);
+}
+
+#styleGlam + label.parameters__label::before {
+  background-image: url(../../../images/glamour.png);
+}
+
+
+
+
+#productSoft:checked + label.parameters__label::before {
+  background-image: url(../../../images/softchecked.png);
+}
+
+#productSoft + label.parameters__label::before {
+  background-image: url(../../../images/soft.png);
+}
+
+#productBed:checked + label.parameters__label::before {
+  background-image: url(../../../images/bedroomchecked.png);
+}
+
+#productBed + label.parameters__label::before {
+  background-image: url(../../../images/bedroom.png);
+}
+
+#productLiving:checked + label.parameters__label::before {
+  background-image: url(../../../images/livingchecked.png);
+}
+
+#productLiving + label.parameters__label::before {
+  background-image: url(../../../images/living.png);
+}
+
+#productDining:checked + label.parameters__label::before {
+  background-image: url(../../../images/diningchecked.png);
+}
+
+#productDining + label.parameters__label::before {
+  background-image: url(../../../images/dining.png);
+}
+
+#productChair:checked + label.parameters__label::before {
+  background-image: url(../../../images/chairschecked.png);
+}
+
+#productChair + label.parameters__label::before {
+  background-image: url(../../../images/chairs.png);
+}
+
+#productBath:checked + label.parameters__label::before {
+  background-image: url(../../../images/bathchecked.png);
+}
+
+#productBath + label.parameters__label::before {
+  background-image: url(../../../images/bath.png);
+}
+
+#productAccs:checked + label.parameters__label::before {
+  background-image: url(../../../images/accschecked.png);
+}
+
+#productAccs + label.parameters__label::before {
+  background-image: url(../../../images/accs.png);
+}
+
+#productSmallForms:checked + label.parameters__label::before {
+  background-image: url(../../../images/littleformschecked.png);
+}
+
+#productSmallForms + label.parameters__label::before {
+  background-image: url(../../../images/littleforms.png);
+}
+
+#productTextile:checked + label.parameters__label::before {
+  background-image: url(../../../images/textilechecked.png);
+}
+
+#productTextile + label.parameters__label::before {
+  background-image: url(../../../images/textile.png);
+}
+
+#productLight:checked + label.parameters__label::before {
+  background-image: url(../../../images/lightchecked.png);
+}
+
+#productLight + label.parameters__label::before {
+  background-image: url(../../../images/light.png);
+}
+
+#productOutdoor:checked + label.parameters__label::before {
+  background-image: url(../../../images/outdoorchecked.png);
+}
+
+#productOutdoor + label.parameters__label::before {
+  background-image: url(../../../images/outdoor.png);
+}
+
+
+
+
+#priceLow:checked + label.parameters__label::before {
+  background-image: url(../../../images/lowchecked.png);
+}
+
+#priceLow + label.parameters__label::before {
+  background-image: url(../../../images/low.png);
+}
+
+#priceMid:checked + label.parameters__label::before {
+  background-image: url(../../../images/midchecked.png);
+}
+
+#priceMid + label.parameters__label::before {
+  background-image: url(../../../images/mid.png);
+}
+
+#priceMidHigh:checked + label.parameters__label::before {
+  background-image: url(../../../images/midhighchecked.png);
+}
+
+#priceMidHigh + label.parameters__label::before {
+  background-image: url(../../../images/midhigh.png);
+}
+
+#priceHigh:checked + label.parameters__label::before {
+  background-image: url(../../../images/highchecked.png);
+}
+
+#priceHigh + label.parameters__label::before {
+  background-image: url(../../../images/high.png);
+}
+
+
+
+
+
+#feature1 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature1:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature2 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature2:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature3 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature3:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature4 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature4:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature5 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature5:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature6 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature6:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature7 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature7:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+#feature8 + label.parameters__label::before {
+  background-color: black;
+}
+
+#feature8:checked + label.parameters__label::before {
+  background-color: aqua;
+}
+
+
+
+
+
+#represMir + label.parameters__label::before {
+  background-color: black;
+}
+
+#represMir:checked + label.parameters__label::before {
+  background-color: aqua;
+}

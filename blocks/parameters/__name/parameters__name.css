@@ -1,0 +1,13 @@
+.parameters__name {
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  color: black;
+  font-size: 30px;
+  line-height: 30px;
+  word-spacing: 3px;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  grid-area: name;
+  align-self: center;
+}
