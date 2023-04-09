@@ -3,6 +3,7 @@
   height: 300px;
   background-color: aqua;
   display: flex;
+  border-radius: 10px;
 }
 
 .results__card:hover {
