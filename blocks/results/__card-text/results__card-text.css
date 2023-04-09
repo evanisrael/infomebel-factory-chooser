@@ -1,12 +1,12 @@
 .results__card-text {
   font-family: 'Brygada 1918', serif;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 30px;
   line-height: 55px;
   word-spacing: 3px;
   margin: 0;
   padding: 0;
   text-align: center;
-  text-shadow: 3px 3px 5px black;
+  /* text-shadow: 3px 3px 5px black; */
 }

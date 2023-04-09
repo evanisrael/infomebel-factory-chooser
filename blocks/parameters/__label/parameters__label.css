@@ -56,7 +56,7 @@ input:checked + label span {
 }
 
 input:checked + label.parameters__label::before {
-  border: 3px solid black;
+  border: 5px solid black;
 }
 
 #styleClassic:checked + label.parameters__label::before {
