@@ -94,6 +94,8 @@ searchButton.addEventListener('click', function() {
 
 
 function addCardListeners() {
+  const resultsCards = document.querySelectorAll('.results__card');
+
   resultsCards.forEach((card) => {
     card.addEventListener('click', () => {
       const productId = card.id;
@@ -106,7 +108,7 @@ function addCardListeners() {
 
 
 function showProducts(selectedValues) {
-  // Очистка списка результатов
+  
   resultsList.innerHTML = '';
 
   if (selectedValues.length === 0) {
@@ -114,12 +116,12 @@ function showProducts(selectedValues) {
     return;
   }
 
-  // Находим товары, которые подходят под выбранные значения в массиве selectedValues
+  
   let matchingProducts = products.filter(product => {
     return selectedValues.every(value => product.values.includes(value));
   });
 
-  // Добавляем карточки продукта в блок results__list или сообщение о том, что результатов нет
+  
   resultsList.innerHTML = matchingProducts.length ? matchingProducts.map(product => `
     <li>
       <button class="results__card" type="button" id="${product.id}">
@@ -128,15 +130,12 @@ function showProducts(selectedValues) {
     </li>
   `).join('') : '<p class="results__text">НЕТ РЕЗУЛЬТАТОВ</p>';
 
-  // Добавляем обработчики событий для карточек после обновления списка результатов
+  
   addCardListeners();
 }
 
-// Инициализация обработчиков событий для существующих карточек
-addCardListeners();
 
 
-// Добавляем обработчик событий для закрытия попапа
 popupCloseButton.addEventListener('click', () => {
   popup.classList.remove('popup_opened');
 });
